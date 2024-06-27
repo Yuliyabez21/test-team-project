@@ -4,10 +4,9 @@
 
 }
 
-.btn-about-us {
+.btn {
 display: flex;
 justify-content: center;
-background-color: #3350e9;
 align-items: center;
 font-weight: 500;
 font-size: 14px;
@@ -17,18 +16,11 @@ color: #fbfbfb;
 border: none;
 border-radius: 16px;
 min-width: 160px;
-height: 48px;
-padding: 15px 37px;
+min-height: 48px;
 margin: 0 auto;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.btn-about-us:hover,
-.btn-about-us:focus {
-background: #1f3cd4;
-}
-
 
 
 .container {
