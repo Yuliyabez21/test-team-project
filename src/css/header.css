@@ -1,0 +1,240 @@
+ .container {
+     max-width: 320px;
+ }
+
+.conteiner-heder {
+  
+    box-sizing: border-box;
+        display: flex;
+            align-items: center;
+            justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px 0;
+        border-bottom: 1px solid #E7E9FC;
+            box-shadow: 0px 0px 0px rgba(46, 47, 66, 0.0), 0px 1px 0px rgba(46, 47, 66, 0.07), 0px 2px 0px rgba(46, 47, 66, 0.0);
+        }
+
+.logo-header {
+    font-family: "Gilroy", sans-serif;
+    font-size: 20px ;
+    font-weight: 500 ;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 4px;
+}
+   .open-menu-btn {
+       padding: 0;
+       line-height: 0;
+       background-color: transparent;
+       cursor: pointer;
+       border: none;
+       height: 40px;
+       width: 40px;
+       stroke-width: 3px;
+       stroke: #0c0c0c;
+   }
+   .navigation {
+        display: none;
+   }
+
+   .socials-heder {
+        display: none;
+   }
+
+   .backdrop-menu-mob-tablet {
+       background-color: transparent;
+       position: fixed;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       opacity: 0;
+       visibility: hidden;
+       pointer-events: none;
+       transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   .backdrop-menu-mob-tablet.is-open {
+       opacity: 1;
+       pointer-events: auto;
+       visibility: visible;
+   }
+
+   .window-menu {
+        top: 0;
+        right: 0;
+        width: 200px;
+        min-height: 100%;
+        background-image: url("/img/menu-backdrop-mob-1x.jpg");
+        position: absolute;
+        margin: auto;
+       /* transform: translate(-50%, -50%) scale(1);*/
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        background-size: cover;
+            background-position: center;
+   }
+
+
+@media screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .window-menu {
+        background-image: url("/img/menu-backdrop-mob-2x.jpg");
+                 }
+     }
+
+   .close-menu-btn {
+    height: 34px;
+    width: 34px;
+        fill: #fbfbfb;
+            background: transparent;
+            position: absolute;
+                right: inherit;
+                border: none;
+                margin: 20px 20px 0 0;
+   } 
+.nav-link-backdrop{
+    font: 500 14px / 1.28571 "Gilroy", sans-serif;
+        text-align: center;
+        color: #fbfbfb;
+        display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 24px;
+            margin-top: 240px;
+}
+.current::after {
+    color: #3350e9;
+    content: ".";
+    font-size: 64px;
+    font-family: "math";
+    line-height: 0;
+    display: block;
+    position: relative;
+    top: -7px;
+}
+.socials-media-backdrop{
+        display: flex;
+            justify-content: center;
+            gap: 10px;
+}
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    margin-top: 260px;
+}
+    .socials-media-backdrop .socials-link .icon-svg {
+        fill: #cbcbcb;
+       
+    }
+        .socials-media-backdrop .socials-link .icon-svg:hover,
+        .socials-media-backdrop .socials-link .icon-svg:focus {
+                    fill: #fbfbfb;
+                }
+/*---Media-768---*/
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        }
+ .window-menu {
+    width: 330px;
+ }
+ .socials-link {
+    width: 36px;
+        height: 36px;
+ }
+    }
+
+        /*---Media-1280---*/
+    
+        @media screen and (min-width: 1280px) {
+            .container {
+                max-width: 1280px;
+            }
+      .conteiner-heder {
+         padding: 26px 0;
+                        }
+.navigation {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    font-family: "Gilroy", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+    color: #0c0c0c;
+    transition: color 250ms;
+    position: relative;
+}
+
+
+.current::after {
+    color: #3350e9;
+    content: ".";
+    font-size: 64px;
+    font-family: "math";
+    line-height: 0;
+    display: block;
+    position: relative;
+    top:-7px    ;
+}
+.socials-heder{
+    display: flex;
+}
+
+.socials-media {
+    display: flex;
+    gap: 10px;
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    width: 36px;
+    height: 36px;
+    fill: #0c0c0c;
+    opacity: 0.8;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+.socials-link:hover a svg,
+.socials-link:focus a svg{
+    fill: #3350E9; 
+}
+.socials-link:hover,
+.socials-link:focus {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+}
+.open-menu-btn {
+    display: none;
+}
+.backdrop-menu-mob-tablet {
+    display: none;
+}
+.window-menu {
+display: none;
+        }
+    
+    }
