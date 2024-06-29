@@ -203,8 +203,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .media_box {
+  .footer_box {
     position: relative;
+  }
+  .media_box {
     margin-bottom: 142px;
   }
   .footer_text {
