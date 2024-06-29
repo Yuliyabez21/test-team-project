@@ -1,7 +1,7 @@
  
 
 .conteiner-header {
-max-width: 320px;
+    max-width: 375px;
     box-sizing: border-box;
         display: flex;
             align-items: center;
@@ -142,7 +142,7 @@ max-width: 320px;
 /*---Media-768---*/
 
 @media screen and (min-width: 768px) {
-    .container-header {
+    .conteiner-header {
         max-width: 768px;
         }
  .window-menu {
