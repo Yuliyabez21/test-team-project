@@ -5,7 +5,7 @@
   |============================
 */
 
-@import url('git ./fonts/stylesheet.css');
+@import url('../fonts/fonts.css');
 
 @import url('./common.css');
 
