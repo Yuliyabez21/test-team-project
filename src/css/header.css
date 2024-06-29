@@ -1,9 +1,7 @@
- .container {
-     max-width: 320px;
- }
+ 
 
-.conteiner-heder {
-  
+.conteiner-header {
+max-width: 320px;
     box-sizing: border-box;
         display: flex;
             align-items: center;
@@ -41,7 +39,7 @@
         display: none;
    }
 
-   .socials-heder {
+   .socials-header {
         display: none;
    }
 
@@ -144,7 +142,7 @@
 /*---Media-768---*/
 
 @media screen and (min-width: 768px) {
-    .container {
+    .container-header {
         max-width: 768px;
         }
  .window-menu {
@@ -159,11 +157,10 @@
         /*---Media-1280---*/
     
         @media screen and (min-width: 1280px) {
-            .container {
-                max-width: 1280px;
-            }
-      .conteiner-heder {
+
+      .conteiner-header {
          padding: 26px 0;
+        max-width: 1280px;
                         }
 .navigation {
     display: flex;
@@ -196,7 +193,7 @@
     position: relative;
     top:-7px    ;
 }
-.socials-heder{
+.socials-header{
     display: flex;
 }
 
