@@ -1,0 +1,164 @@
+.sale {
+font-family: "Gilroy", sans-serif;
+margin-bottom: 100px;
+}
+
+.sale-container {}
+
+.sale-title {
+    /* font-family: "Gilroy", sans-serif; */
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+    margin-left: 65px;
+}
+
+.sale-block {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.sale-list {
+    display: flex;
+}
+
+.image-sale {
+    display: flex;
+}
+
+.small-images {
+    margin-right: 20px;
+}
+
+.sale-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 20px;
+    width: 132px;
+    height: 132px;
+    background: #f3f3f3;
+    margin-bottom: 10px;
+}
+
+.big {
+    border-radius: 50px;
+    width: 428px;
+    height: 558px;
+}
+
+
+
+.small-image-sale {
+    margin: 16px 18px;
+}
+
+.image-sale-big {
+    margin: 80px 50px;
+}
+
+.sale-block-features {
+    display: block;
+    border-radius: 50px;
+    width: 530px;
+    height: auto;
+    background: #3350e9;
+}
+
+.sale-subtitle-article {
+    display: block;
+    margin: 60px 81px 20px 60px;
+}
+
+.sale-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding-bottom: 10px;
+}
+
+.sale-article {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-block-prise {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.sale-btn {
+    margin-right: 9px;
+    border-radius: 8px;
+    width: 78px;
+    height: 32px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    background: rgba(251, 251, 251, 0.1);
+}
+
+.sale-price {
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    padding: 0;
+}
+
+.sale-features {
+    margin: 0 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.sale-btn-block {
+    display: flex;
+    margin: 40px 72px 60px 60px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.btn-block-features {}
+
+.sale-btn-features {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #fbfbfb;
+    background-color: transparent;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    height: 34px;
+    width: auto;
+}
+
+
+/* -------media-tablet---------- */
+
+@media screen and (min-width:768px) {}
+
+/* -------media-desktop---------- */
+
+@media screen and (min-width:1280px) {}
