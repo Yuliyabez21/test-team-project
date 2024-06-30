@@ -26,6 +26,7 @@
         background-image: url(/img/advert-mob-2x.png);
     }
 }
+
 .advertisement-text {
     width: 279px;
     height: 167px;
@@ -36,6 +37,7 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
 }
+
 .advertisement-text-gray {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -44,6 +46,7 @@
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
 }
+
 .anchor-button {
     margin-top: 28px;
     display: inline-block;
@@ -95,7 +98,9 @@
     }
 }
 /* desktop */
+
 @media (min-width: 1280px) {
+
     .advertisement{
     padding-top: 83px;
     padding-bottom: 83px;
@@ -114,7 +119,7 @@
     margin: 0;
     position: absolute;
     top: 80px;
-    right: 80px;
+    padding-right: 80px;
     }
 }
 @media (min-resolution: 192dpi) and (min-width: 1280px) {
