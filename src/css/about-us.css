@@ -1,0 +1,122 @@
+
+.about-us {
+    padding-bottom: 60px;
+}
+
+.about-us-container {
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px, 65px; */
+}
+
+.description {
+    min-width: 251px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    padding: 48px 28px;
+}
+
+.description-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.description-text {
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column; */
+    text-align: left;
+    margin-bottom: 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+
+
+.button-view {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+    min-width: 160px;
+    min-height: 48px;
+    background-color: #3350e9;
+    margin: 0;
+    /* align-items: center;
+    justify-content: center;
+    border-radius: 16px; */
+}
+
+.button-view:hover,
+.button-view:focus {
+    background-color: #1f3cd4;
+}
+
+.image-block {
+    border-radius: 30px;
+    width: 335px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 1280px) {
+    /* .about-us {
+        min-width: 1280px;
+    } */
+
+    .description {
+        padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+        /* width: 530px;
+        padding: 50px 60px;
+        margin-right: 40px; */
+    }
+
+    .image-block {
+        min-width: 530px;
+        min-height: 556px;
+        padding-top: 0;
+    }
+
+    .description,
+    .image-block {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-us {
+        /* min-width: 768px; */
+    }
+
+    .description-title {
+        font-size: 48px;
+        line-height: 0.9;
+        margin-bottom: 40px;
+    }
+
+    .description {
+        padding: 50px 122px;
+        border-radius: 50px;
+        min-width: 460px;
+        min-width: 460px;
+        /* display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column; */
+    }
+
+    .description-text {
+        font-size: 16px;
+    }
+}
