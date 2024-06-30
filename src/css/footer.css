@@ -7,6 +7,11 @@
   padding: 40px 28px 28px 28px;
   background: #0c0c0c;
 }
+
+.media_box {
+  min-width: 279px;
+}
+
 .social_box {
   display: flex;
   flex-direction: column;
@@ -149,6 +154,8 @@
   .media_box {
     display: flex;
     margin-bottom: 86px;
+        min-width: 624px;
+
   }
   .logo_footer {
     font-size: 20px;
@@ -215,7 +222,9 @@ min-width: 1216px;
   }
   .media_box {
     margin-bottom: 142px;
+    min-width: 1136px;
   }
+
   .footer_text {
     position: absolute;
     top: 47px;
