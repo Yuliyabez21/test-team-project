@@ -1,5 +1,6 @@
 .footer {
   margin: 0 12px;
+  min-width: 335px;
 }
 .footer_box {
   border-radius: 30px;
@@ -136,6 +137,7 @@
 @media screen and (min-width: 768px) {
   .footer {
     margin: 0 24px;
+    min-width: 704px;
   }
   .footer_box {
     padding: 40px 40px 28px 40px;
@@ -143,6 +145,7 @@
   .social_box {
     flex-grow: 1;
   }
+
   .media_box {
     display: flex;
     margin-bottom: 86px;

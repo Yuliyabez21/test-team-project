@@ -105,9 +105,21 @@
     padding-top: 83px;
     padding-bottom: 83px;
     padding-left: 80px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: nowrap;
     
     background-image: url(/img/advert-desktop-1x.png)
     }
+
+    .adv {
+        /* margin-right: 140px; */
+    }
+
+    .adv-link {
+        margin: 0 0 87px 140px;
+    }
+
     .advertisement-text {
     width: 690px;
     height: 132px;
@@ -117,9 +129,9 @@
     }
     .anchor-button {
     margin: 0;
-    position: absolute;
+    /* position: absolute;
     top: 80px;
-    padding-right: 80px;
+    right: 80px; */
     }
 }
 @media (min-resolution: 192dpi) and (min-width: 1280px) {
