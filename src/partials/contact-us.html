@@ -1,0 +1,74 @@
+<section id="contact" class="contact-us">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-flex">
+      <div class="contact-modal">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="modal-form">
+          <div class="input-container">
+            <input
+              type="text"
+              name="name"
+              class="input"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="email"
+              name="email"
+              class="input"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <input
+              type="tel"
+              name="phone"
+              class="input"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="(+380-XX-XXX-XX-XX)"
+              required
+            />
+          </div>
+          <div class="input-container">
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+        </form>
+        <div class="btn-div">
+          <button type="submit" class="btn contact-btn">Send</button>
+        </div>
+      </div>
+
+      <div class="contact-picture">
+        <picture>
+          <source
+            srcset="/img/contact-1x.jpg 1x, /img/contact-2x.jpg 2x"
+            media="(min-width: 1280px)" />
+          <source
+            srcset="/img/contact-tab-1x.jpg 1x, /img/contact-tab-2x.jpg 2x"
+            media="(min-width: 768px)" />
+          <source
+            srcset="/img/contact-mob-1x.jpg 1x, /img/contact-mob-2x.jpg 2x"
+            media="(min-width: 320px)" />
+          <img
+            src="/img/contact-1x.jpg"
+            alt="clock on stone"
+            class="contact-img"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
