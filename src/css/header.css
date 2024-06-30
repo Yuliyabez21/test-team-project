@@ -129,7 +129,19 @@
     width: 34px;
     height: 34px;
     background-color: transparent;
-    margin-top: 260px;
+    margin-top: 26px;
+}
+.socials-media-backdrop .socials-link{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(251, 251, 251, 0.1);
+        border-radius: 10px;
+        width: 36px;
+        height: 36px;
+        background-color: transparent;
+        margin-top: 260px;
+        margin-bottom: 40px;
 }
     .socials-media-backdrop .socials-link .icon-svg {
         fill: #cbcbcb;
@@ -148,10 +160,14 @@
  .window-menu {
     width: 330px;
  }
- .socials-link {
-    width: 36px;
-        height: 36px;
+ .nav-link-backdrop {
+        margin-top: 310px;
+        gap: 32px;
  }
+.socials-media-backdrop .socials-link {
+        margin-top: 350px;
+            margin-bottom: 50px;
+}
     }
 
         /*---Media-1280---*/
