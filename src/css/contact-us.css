@@ -1,6 +1,6 @@
 .contact-us {
     padding-bottom: 60px;
-    min-width: 375px;
+    /* min-width: 375px; */
 }
 
 .contact-title {
@@ -107,7 +107,7 @@
 
 @media screen and (min-width: 768px) {
     .contact-us {
-        min-width: 768px;
+        /* min-width: 768px; */
     }
 
     .contact-title {
@@ -171,7 +171,7 @@
     }
 
     .contact-us {
-        min-width: 1280px;
+        /* min-width: 1280px; */
     }
 
     .contact-modal {
