@@ -203,6 +203,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer {
+min-width: 1216px;
+  }
+
   .footer_box {
     position: relative;
   }
