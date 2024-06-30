@@ -16,7 +16,6 @@ margin-top: 60px;
     font-size: 32px;
     line-height: 1;
     margin-bottom: 24px;
-    margin-left: 20px;
     
 }
 
@@ -25,7 +24,6 @@ margin-top: 60px;
     
 
     margin-right: 20px;
-    margin-left: 20px;
     margin-top: 24px;
     gap: 20px;
     flex-wrap: wrap;
@@ -236,13 +234,11 @@ margin-top: 60px;
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
-    margin-left: 32px;
     }
 
     .sale-block {
         gap: 40px;
         margin-top: 40px;
-        margin-left: 32px;
     }
 
     .sale-list {
@@ -337,7 +333,7 @@ line-height: 1;
 .sale-block {
 gap: 40px;
 margin-top: 40px;
-margin-left: 65px;
+/* margin-left: 65px; */
 margin-right: 65px;
 flex-wrap: nowrap;
     }
