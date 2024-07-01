@@ -9,6 +9,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
+    min-height: 446px;
+    min-width: 335px; 
 }
 
 .description {
@@ -17,7 +19,7 @@
     padding-left: 20px;
     padding-right: 20px;
     min-width: 175px;
-    min-height: 286px;
+    /* min-height: 286px; */
     border-radius: 30px;
     background-color: #f3f3f3;
     margin-bottom: 20px;
@@ -98,15 +100,16 @@
         font-size: 16px;
     }
 
+    .button-block {
+        padding-top: 54px;
+    }
+
     .image-block {
-        min-height: 704px;
+        min-height: 520px;
         min-width: 512px;
         border-radius: 50px;
     }
 
-    .button-block {
-        padding-top: 54px;
-    }
 } 
 
 @media screen and (min-width: 1280px) {
