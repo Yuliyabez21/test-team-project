@@ -1,11 +1,20 @@
 .footer {
-  margin: 0 12px;
+  /* margin: 0 12px; */
+  /* min-width: 335px;
+  padding: 0; */
 }
+
 .footer_box {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   background: #0c0c0c;
+  min-width: 279px;
 }
+
+.media_box {
+  /* min-width: 279px; */
+}
+
 .social_box {
   display: flex;
   flex-direction: column;
@@ -135,7 +144,9 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    margin: 0 24px;
+    /* margin: 0 24px; */
+    min-width: 704px;
+    padding: 0;
   }
   .footer_box {
     padding: 40px 40px 28px 40px;
@@ -143,9 +154,12 @@
   .social_box {
     flex-grow: 1;
   }
+
   .media_box {
     display: flex;
     margin-bottom: 86px;
+        min-width: 624px;
+
   }
   .logo_footer {
     font-size: 20px;
@@ -203,10 +217,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .media_box {
-    position: relative;
-    margin-bottom: 142px;
+  .footer {
+min-width: 1216px;
   }
+
+  .footer_box {
+    position: relative;
+  }
+  .media_box {
+    margin-bottom: 142px;
+    min-width: 1136px;
+  }
+
   .footer_text {
     position: absolute;
     top: 47px;

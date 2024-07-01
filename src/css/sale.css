@@ -1,7 +1,8 @@
 .sale {
 font-family: "Gilroy", sans-serif;
 margin-bottom: 60px;
-margin-right: 32px;
+/* margin-right: 32px; */
+margin-top: 60px;
 }
 
 .sale-container {}
@@ -15,7 +16,6 @@ margin-right: 32px;
     font-size: 32px;
     line-height: 1;
     margin-bottom: 24px;
-    margin-left: 20px;
     
 }
 
@@ -24,7 +24,6 @@ margin-right: 32px;
     
 
     margin-right: 20px;
-    margin-left: 20px;
     margin-top: 24px;
     gap: 20px;
     flex-wrap: wrap;
@@ -226,20 +225,20 @@ margin-right: 32px;
 
     .sale {
         margin-bottom: 80px;
-        margin-right: 32px;
+        /* margin-right: 32px; */
+        margin-top: 80px;
+
     }
 
     .sale-title {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
-    margin-left: 32px;
     }
 
     .sale-block {
         gap: 40px;
         margin-top: 40px;
-        margin-left: 32px;
     }
 
     .sale-list {
@@ -323,17 +322,18 @@ line-height: 1;
 @media screen and (min-width:1280px) {
 .sale {
     margin-bottom: 100px;
-    margin-right: 65px;
+    /* margin-right: 65px; */
+    margin-top: 100px;
 }
 
 .sale-title {
-    margin-left: 65px;
+    /* margin-left: 65px; */
 }
 
 .sale-block {
 gap: 40px;
 margin-top: 40px;
-margin-left: 65px;
+/* margin-left: 65px; */
 margin-right: 65px;
 flex-wrap: nowrap;
     }
