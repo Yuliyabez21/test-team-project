@@ -1,12 +1,13 @@
  
 .conteiner-header {
     max-width: 375px;
+    min-width: 320px;
     box-sizing: border-box;
         display: flex;
             align-items: center;
             justify-content: space-between;
         margin: 0 auto;
-        padding: 20px 0;
+        padding: 20px 20px;
         border-bottom: 1px solid #E7E9FC;
             box-shadow: 0px 0px 0px rgba(46, 47, 66, 0.0), 0px 1px 0px rgba(46, 47, 66, 0.07), 0px 2px 0px rgba(46, 47, 66, 0.0);
         }
@@ -155,6 +156,7 @@
 @media screen and (min-width: 768px) {
     .conteiner-header {
         max-width: 768px;
+        padding: 26px 32px;
         }
  .window-menu {
     width: 330px;
@@ -174,8 +176,8 @@
         @media screen and (min-width: 1280px) {
 
       .conteiner-header {
-         padding: 26px 0;
-        min-width: 1151px;
+         padding: 26px 65px;
+        max-width: 1280px;
                         }
 .navigation {
     display: flex;
