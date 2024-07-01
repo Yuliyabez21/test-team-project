@@ -5,7 +5,9 @@ margin-bottom: 60px;
 margin-top: 60px;
 }
 
-.sale-container {}
+.sale-container {
+
+}
 
 .sale-title {
     font-weight: 600;
@@ -351,6 +353,7 @@ flex-wrap: nowrap;
 .sale-block-features {
     border-radius: 50px;
     width: 530px;
+    margin-left: auto;
 }
 
 .sale-subtitle-article {
