@@ -70,8 +70,7 @@ margin-top: 60px;
     /* width: 428px;
     height: 558px; */
 
-    /* width: 335px; */
-    width: 100%;
+    width: 335px;;
     height: 385px;
 }
 
@@ -84,8 +83,8 @@ margin-top: 60px;
 
     width: 52px;
     height: 54px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 .image-sale-big {
@@ -94,8 +93,8 @@ margin-top: 60px;
     margin: 50px;
     width: 235px;
     height: 285px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 
 }
 
