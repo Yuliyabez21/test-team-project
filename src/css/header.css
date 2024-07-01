@@ -176,7 +176,7 @@
 
       .conteiner-header {
          padding: 26px 0;
-        max-width: 1280px;
+        min-width: 1151px;
                         }
 .navigation {
     display: flex;
