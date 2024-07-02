@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Gilroy", sans-serif;
     justify-content: center;
     align-items: center;
     /* height: 100vh; */
@@ -12,6 +12,7 @@ body {
     padding: 20px;
     padding: 0px 65px;
     border-radius: 8px;
+    padding-bottom: 10%; /* Пример внутреннего отступа внизу */
 }
 
 .catalogist{
@@ -114,9 +115,29 @@ height: 414px;
     }
 
     .show-more {
-        display: block;
+        display: none;
+    }
+
+    .catalog-item:nth-last-child(-n+2) {
+        display: none; 
+    }
+
+    .catalog-text-block {
+        display: block; 
     }
 }
+
+
+@media screen and (min-width: 1280px) {
+    .show-more {
+        display: none; 
+    }
+
+    .catalog-item {
+        display: block !important; 
+    }
+}
+
 
 .catalog-text {
     font-weight: 500;
