@@ -1,0 +1,150 @@
+.about-us {
+    padding-bottom: 60px;
+}
+
+.about-us-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 446px;
+    min-width: 335px; 
+}
+
+.description {
+    padding-top: 40px; 
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 175px;
+    min-height: 286px;
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    margin-bottom: 20px;
+} 
+
+.description-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.description-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.button-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 24px;
+} 
+
+.button-view {
+    display: flex;
+    width: 160px;
+    height: 48px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    margin: 0;
+}
+
+.button-view:hover,
+.button-view:focus {
+    background-color: #1f3cd4;
+}
+
+.image-block {
+    min-height: 446px;
+    min-width: 335px;
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        padding-top: 80px; 
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        min-width: 584px;
+        min-height: 352px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+
+    .description-title {
+        font-size: 48px;
+        line-height: 0.9;
+        margin-bottom: 40px;
+    }
+
+    .description-text {
+        font-size: 16px;
+    }
+
+    .button-block {
+        padding-top: 54px;
+    }
+
+    .image-block {
+        min-height: 520px;
+        min-width: 512px;
+        border-radius: 50px;
+    }
+
+} 
+
+@media screen and (min-width: 1280px) {
+    .about-us-container {
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    
+    .description {
+        padding-top: 80px; 
+        padding-bottom: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
+        min-width: 460px;
+        min-height: 352px;
+        border-radius: 50px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+    }
+
+    .image-block {
+        min-width: 584px;
+        min-height: 532px;
+    }
+
+    .description-text {
+        font-size: 16px;
+    }
+
+    .button-block {
+        padding-top: 38px;
+    }
+
+    .description,
+    .image-block {
+        width: 45%;
+    }
+} 
