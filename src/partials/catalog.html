@@ -1,74 +1,152 @@
-<section class="catalog">
-    <div class="catalogist">
-        <h2 class="catalog-watch">Catalog</h2>
-        <div class="div">
-            <ul class="catalog-items">
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-1-1x.png" srcset="img/catalog-1-1x.png 1x, img/catalog-1-2x.png 2x" alt="Garmin Fenix 7X Pro Sapphire Solar" width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Garmin Fenix 7X Pro Sapphire Sol...</h3>
-                        <p class="catalog-paragraph">€500</p>
-                    </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-2-1x.png" srcset="img/catalog-2-1x.png 1x, img/catalog-2-2x.png 2x" alt="Garmin Marq Athlete" width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Garmin Marq Athlete</h3>
-                        <p class="catalog-paragraph">€450</p>
-                    </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-3-1x.png" srcset="img/catalog-3-1x.png 1x, img/catalog-3-2x.png 2x" alt="Garmin Descent MK1" width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Garmin Descent MK1</h3>
-                        <p class="catalog-paragraph">€680</p>
-                    </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-4-1x.png" srcset="img/catalog-4-1x.png 1x, img/catalog-4-2x.png 2x" alt="Garmin D2 Delta PX" width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Garmin D2 Delta PX</h3>
-                        <p class="catalog-paragraph">€380</p>
-                    </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-5-1x.png" srcset="img/catalog-5-1x.png 1x, img/catalog-5-2x.png 2x" alt="Garmin Fenix 6 Pro Solar" width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Garmin Fenix 6 Pro Solar</h3>
-                        <p class="catalog-paragraph">€400</p>
-                    </div>
-                </li>
-                <li class="catalog-item">
-                    <div class="image-container">
-                        <img src="img/catalog-6-1x.png" srcset="img/catalog-6-1x.png 1x, img/catalog-6-2x.png 2x" alt="Tube Watch S42 Date Steel With..." width="304" height="312">
-                    </div>
-                    <div class="text-container">
-                        <h3 class="catalog-text">Tube Watch S42 Date Steel With...</h3>
-                        <p class="catalog-paragraph">€395</p>
-                    </div>
-                </li>
-            </ul>
+<section class="catalog" id="catalog ">
+  <div class="catalog-wrap container">
+    <h2 class="catalog-title">Catalog</h2>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <picture>
+          <source
+            srcset="/img/catalog1-1x.png 1x, /img/catalog1-2x.png 1x 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/img/catalog1-tab-1x.png 1x, /img/catalog1-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/catalog1-mob-1x.png 1x, /img/catalog1-mob-2x.png 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/img/catalog1-1x.png"
+            alt="Garmin Fenix 7X Pro Sapphire Solar"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">Garmin Fenix 7X Pro Sapphire Solar</p>
+          <p class="catalog-price">€500</p>
         </div>
-        <div class="catalog-text-block">
-            <p></p>
+      </li>
+      <li class="catalog-item">
+        <picture>
+          <source
+            srcset="/img/catalog2-1x.png 1x, /img/catalog2-2x.png 1x 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/img/catalog2-tab-1x.png 1x, /img/catalog2-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/catalog2-mob-1x.png 1x, /img/catalog2-mob-2x.png 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/img/catalog2-1x.png"
+            alt="Garmin Marq Athlete"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">Garmin Marq Athlete</p>
+          <p class="catalog-price">€450</p>
         </div>
-        <button class="show-more" onclick="showAllItems()">Show more</button>
-    </div>
+      </li>
+      <li class="catalog-item">
+        <picture>
+          <source
+            srcset="/img/catalog3-1x.png 1x, /img/catalog3-2x.png 1x 2x"
+            media="(min-width: 1158px)"
+          />
+          <source
+            srcset="/img/catalog3-tab-1x.png 1x, /img/catalog3-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/catalog3-mob-1x.png 1x, /img/catalog3-mob-2x.png 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/img/catalog3-1x.png"
+            alt="Garmin Descent MK1"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">Garmin Descent MK1</p>
+          <p class="catalog-price">€680</p>
+        </div>
+      </li>
+      <li class="catalog-item">
+        <picture>
+          <source
+            srcset="/img/catalog4-1x.png 1x, /img/catalog4-2x.png 1x 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/img/catalog4-tab-1x.png 1x, /img/catalog4-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/img/catalog4-mob-1x.png 1x, /img/catalog4-mob-2x.png 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/img/catalog4-1x.png"
+            alt="Garmin D2 Delta PX"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">Garmin D2 Delta PX</p>
+          <p class="catalog-price">€380</p>
+        </div>
+      </li>
+      <li class="catalog-item hidden">
+        <picture>
+          <source
+            srcset="/img/catalog5-1x.png 1x, /img/catalog5-2x.png 1x 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/img/catalog5-tab-1x.png 1x, /img/catalog5-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="/img/catalog5-1x.png"
+            alt="Garmin Fenix 6 Pro Solar"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">Garmin Fenix 6 Pro Solar</p>
+          <p class="catalog-price">€400</p>
+        </div>
+      </li>
+      <li class="catalog-item hidden">
+        <picture>
+          <source
+            srcset="/img/catalog6-1x.png 1x, /img/catalog6-2x.png 1x 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/img/catalog6-tab-1x.png 1x, /img/catalog6-tab-2x.png 2x"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="/img/catalog6-1x.png"
+            alt="Tube Watch S42 Date Steel With Black Case"
+            class="item-img-catalog"
+          />
+        </picture>
+        <div>
+          <p class="catalog-item-title">
+            Tube Watch S42 Date Steel With Black Case
+          </p>
+          <p class="catalog-price">€395</p>
+        </div>
+      </li>
+    </ul>
+    <button type="button" class="catalog-btn btn">Show more</button>
+  </div>
 </section>
-<script>
-    function showAllItems() {
-        const items = document.querySelectorAll('.catalog-item');
-        items.forEach(item => item.style.display = 'block');
-        document.querySelector('.show-more').style.display = 'none';
-    }
-</script>
