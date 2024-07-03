@@ -12,14 +12,18 @@ body {
     padding: 20px;
     padding: 0px 65px;
     border-radius: 8px;
+    margin-bottom: 20px;
     padding-bottom: 10%; /* Пример внутреннего отступа внизу */
+    width: calc(100% + 40px); /* Розширення секції за межі контейнера */
+    margin-left: -20px; /* Вирівнювання відступів */
+    margin-right: -20px;
 }
 
 .catalogist{
 padding: 0px 65px 0px 65px;
 gap: 40px;
 opacity: 0px;
-
+margin-top: 20px;
 }
 
 .div{
@@ -83,7 +87,7 @@ height: 414px;
 }
 
 .show-more {
-
+    display: none;
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 16px;
@@ -95,13 +99,86 @@ height: 414px;
     text-align: left;
 }
 
-@media screen and (max-width: 768px) {
-    .catalog {
-        padding: 0px 20px; 
-    }
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .catalog-items {
-        grid-template-columns: repeat(2, 1fr); 
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 24px;
+    }
+    
+    .catalog-item {
+        width: calc(50% - 24px);
+    }
+    .catalog-item:nth-child(n+7) {
+        display: none;
+      }
+    
+      /* Додати кнопку "Show more" */
+      .catalog {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; /* Вирівнювання по нижньому краю */
+      }
+    
+      .show-more {
+        display: block; /* Показати кнопку */
+      }
+      .catalog-item {
+        width: calc(33.33% - 24px);
+    }
+    .catalog-items:not(:empty) + .show-more {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+  }
+
+  @media screen and (max-width: 767px) {
+    .catalog-items {
+      grid-template-columns: 1fr; /* 1 картинка в ряд */
+    }
+    
+    .catalog-item {
+        width: 100%;
+    }
+  }
+  
+
+@media screen and (min-width: 768px) {
+    .catalog-items {
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 32px 23px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .catalog-items {
+      grid-template-columns: repeat(3, 1fr); /* 3 картинки в ряд */
+      gap: 32px;
+    }
+    /* Приховати 7+ елемент */
+    .catalog-item:nth-child(n+7) {
+      display: none;
+    }
+  
+    /* Додати кнопку "Show more" */
+    .catalog {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; /* Вирівнювання по нижньому краю */
+    }
+  
+    .show-more {
+      display: block; /* Показати кнопку */
+    }
+    .catalog-items:not(:empty) + .show-more {
+        pointer-events: none;
+        opacity: 0.5;
+      }
+  }
+
+@media screen and (max-width: 768px) {
+    
+    .catalog-items {
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px; 
     }
 
@@ -115,7 +192,7 @@ height: 414px;
     }
 
     .show-more {
-        display: none;
+        display: block;
     }
 
     .catalog-item:nth-last-child(-n+2) {
