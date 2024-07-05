@@ -71,7 +71,7 @@
  
 @media screen and (min-width:768px){ 
     .catalog{ 
-        padding-top: 80px; 
+/*         padding-top: 80px;  */
         padding-bottom: 80px; 
     } 
     .hidden{ 
@@ -79,6 +79,9 @@
             flex-direction: row; 
             flex-wrap: wrap; 
     } 
+    .catalog-title{
+      font-size: 48px;
+    }
     .catalog-list { 
         gap: 32px 16px; 
         max-width: 704px;         
@@ -110,7 +113,7 @@
  
 @media screen and (min-width:1280px){ 
     .catalog{ 
-        padding-top: 100px; 
+/*         padding-top: 100px;  */
         padding-bottom: 100px; 
     } 
     .catalog-list { 
