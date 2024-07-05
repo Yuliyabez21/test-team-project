@@ -1,5 +1,5 @@
-.about-us {
-}
+/* .about-us {
+} */
 
 .about-us-container {
     display: flex;
@@ -100,7 +100,8 @@
     }
     
     .description {
-        padding: 80px 60px;
+        padding: 80px 60px 100px 60px;
+        min-height: 580px;
         max-width: 580px;
         max-height: 532px;
         border-radius: 50px;
