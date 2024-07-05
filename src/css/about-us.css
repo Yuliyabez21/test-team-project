@@ -1,6 +1,4 @@
-
 .about-us {
-    /* padding-bottom: 60px; */
 }
 
 .about-us-container {
@@ -103,7 +101,7 @@
     
     .description {
         padding: 80px 60px;
-        max-width: 460px;
+        max-width: 580px;
         max-height: 532px;
         border-radius: 50px;
         margin-right: 40px;
