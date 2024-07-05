@@ -158,15 +158,14 @@
 }
 .nav-link-item:hover::after,
 .nav-link-item:active::after {
-  content: '';
-  position: absolute;
-  top: calc(100% + 4px);
-  left: calc(50% - 4px);
-  bottom: 0;
-  width: 8px;
-  height: 8px;
-  background-color: #3350e9;
-  border-radius: 100%;
+  color: #3350e9;
+  content: '.';
+  font-size: 64px;
+  font-family: 'math';
+  line-height: 0;
+  display: block;
+  position: relative;
+  top: -9px;
 }
 .socials-media-backdrop .socials-link {
   display: flex;
@@ -240,15 +239,14 @@
   .nav-link-main:hover::after,
   .nav-link-main:active::after,
   .nav-link-main:focus-within::after {
-    content: '';
-    position: absolute;
-    top: calc(100% - 12px);
-    left: calc(50% - 4px);
-    bottom: 0;
-    width: 8px;
-    height: 8px;
-    background-color: #3350e9;
-    border-radius: 100%;
+    color: #3350e9;
+    content: '.';
+    font-size: 64px;
+    font-family: 'math';
+    line-height: 0;
+    display: block;
+    position: relative;
+    top: -9px;
   }
   .socials-header {
     display: flex;
